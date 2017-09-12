@@ -5,7 +5,6 @@ applications:
   memory: 1G
   instances: 1
   env:
-    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-balaji.apps.longs.pal.pivotal.io
     TRUST_CERTS: apps.longs.pal.pivotal.io
   services:
   - tracker-timesheets-database
